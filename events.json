@@ -1,6 +1,6 @@
 [
    {
-      "id": 6,
+      "id": 7,
       "title": "Flutter for Application Development",
       "tagline": "",
       "category": "workshop",
@@ -75,6 +75,84 @@
             "tagline": "Shhhhh don’t move!!!!!",
             "duration": "25min",
             "description": "Participants will have to create their own startup idea and pitch these idea to the heads, the pitch may include their startup theme their startup required technologies and their vision towards their startup and how will they grow their startup."
+         }
+      ]
+   },
+   {
+      "id": 4,
+      "title": "Bollywood Beats",
+      "tagline": "Hamare Tevar Alag hai",
+      "category": "non-tech",
+      "img": "https://picsum.photos/200",
+      "rounds": [
+         {
+            "id": 1,
+            "title": "Battle of Lyrics",
+            "tagline": "wear your thinking caps or deerstalker hats!",
+            "duration": "25min",
+            "description": "A block of 25 or 16 imgs in such a manner that all the images are linked to each other and numbered in some order. After a few minutes participants will have to memorize the order value pair and the blocks which are related to each other. Participants will have to write the order value pair."
+         },
+         {
+            "id": 2,
+            "title": "Melody",
+            "tagline": "To catch a criminal, think like a criminal",
+            "duration": "25min",
+            "description": "Teams have to solve clues related to the “MURDER OF SHAWN” on basis of there technical knowledge , which will lead to series of clues about murder of shawn. Team who solves all the clue and finds the murderer will win and will get qualify for the next round."
+         },
+         {
+            "id": 3,
+            "title": "Bollywood Anime",
+            "tagline": "Shhhhh don’t move!!!!!",
+            "duration": "25min",
+            "description": "In this round participants have to guess the movie name from the given pictures of actor, actress at particular scene from the movie in the form of Anime or Cartoon."
+         }
+      ]
+   },
+   {
+      "id": 5,
+      "title": "Mentos Zindagi",
+      "tagline": "Dimag Ki Baati Jalao",
+      "category": "non-tech",
+      "img": "https://picsum.photos/200",
+      "rounds": [
+         {
+            "id": 1,
+            "title": "Kahoot",
+            "description": "Questions on this quiz will deal with logic. Because time is one of the determining factors, it is important to answer the questions as quickly as possible."
+         },
+         {
+            "id": 2,
+            "title": "The Big Picture",
+            "description": "During the presentation, participants will view a doodle. The task is to identify colored items and write them down."
+         },
+         {
+            "id": 3,
+            "title": "Galti Se Mistake",
+            "description": "Identify the wrong answer from the given options."
+         }
+      ]
+   },
+   {
+      "id": 6,
+      "title": "Atrangi Mela",
+      "tagline": "Socho Kuch Aur, Hai Kuch Aur!",
+      "category": "non-tech",
+      "img": "https://picsum.photos/200",
+      "rounds": [
+         {
+            "id": 1,
+            "title": "Riddle Marathon",
+            "description": "First we will give brief about the game to the participants. In this game the group will be given riddles and they have to answer them in a particular time limit. Group with the maximum number of right answers will be going to the next round!"
+         },
+         {
+            "id": 2,
+            "title": "Word Scramble",
+            "description": "The group will be given some alphabets from which they have to form maximum number of words in a limited time period."
+         },
+         {
+            "id": 3,
+            "title": "Reel it to win it",
+            "description": "Finalist will be given a place in form of riddle. They will solve the name of place and go to their respective place and make a reel there. Song will be given from prior only. The most entertaining reel will be declared as winner!"
          }
       ]
    }
