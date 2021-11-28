@@ -30,8 +30,8 @@ export default function CallToActionWithIllustration() {
 								fontSize={{ base: "4xl", sm: "6xl", md: "6xl" }}
 								lineHeight={"100%"}
 								bgGradient={useColorModeValue(
-									"linear(to-l, teal.300, teal.700)",
-									"linear(to-l, teal.300, teal.50)"
+									"linear(to-l, teal.300, teal.500)",
+									"linear(to-l, teal.300, teal.100)"
 								)}
 								bgClip="text"
 							>
@@ -39,6 +39,11 @@ export default function CallToActionWithIllustration() {
 								<Text
 									as={"span"}
 									color={useColorModeValue("orange.300", "orange.400")}
+									bgClip="text"
+									bgGradient={useColorModeValue(
+										"linear(to-l, orange.500, orange.300)",
+										"linear(to-l, orange.300, orange.200)"
+									)}
 								>
 									XI
 								</Text>
@@ -50,15 +55,17 @@ export default function CallToActionWithIllustration() {
 								Talk is cheap, show me the code.
 							</Text>
 							<Stack py="1" spacing={6} direction={"row"}>
-								<Button
-									rounded={"full"}
-									px={6}
-									colorScheme={"teal"}
-									bg={"teal.400"}
-									_hover={{ bg: "teal.500" }}
-								>
-									Explore events
-								</Button>
+								<a href="#events">
+									<Button
+										rounded={"full"}
+										px={6}
+										colorScheme={"teal"}
+										bg={"teal.400"}
+										_hover={{ bg: "teal.500" }}
+									>
+										Explore events
+									</Button>
+								</a>
 								<Button rounded={"full"} px={6}>
 									Learn more
 								</Button>

@@ -3,6 +3,48 @@
       "id": 1,
       "title": "Event ka naam",
       "tagline": "Event ka tagline",
-      "category": "tech | non-tech | workshop"
+      "category": "tech | non-tech | workshop",
+      "rounds": [
+         {
+            "id": 1,
+            "title": "NeverHave I ever",
+            "tagline": "Round ka tagline",
+            "seats": "AMAP",
+            "duration": "25min",
+            "desc": "loremx10"
+         },
+         {
+            "id": 2,
+            "title": "NeverHave I ever",
+            "tagline": "Round ka tagline",
+            "seats": "AMAP",
+            "duration": "25min",
+            "desc": "asdfasd asdfasdf adfasdf "
+         }
+      ]
+   },
+   {
+      "id": 2,
+      "title": "Event ka naam",
+      "tagline": "Event ka tagline",
+      "category": "tech | non-tech | workshop",
+      "rounds": [
+         {
+            "id": 1,
+            "title": "NeverHave I ever",
+            "tagline": "Round ka tagline",
+            "seats": "AMAP",
+            "duration": "25min",
+            "desc": "loremx10"
+         },
+         {
+            "id": 2,
+            "title": "NeverHave I ever",
+            "tagline": "Round ka tagline",
+            "seats": "AMAP",
+            "duration": "25min",
+            "desc": "asdfasd asdfasdf adfasdf "
+         }
+      ]
    }
 ]

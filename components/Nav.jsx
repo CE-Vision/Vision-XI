@@ -34,13 +34,19 @@ const NavLink = ({ children }) => (
 
 export default function Nav() {
 	const { colorMode, toggleColorMode } = useColorMode();
-	const { isOpen, onOpen, onClose } = useDisclosure();
+	// const { isOpen, onOpen, onClose } = useDisclosure();
+
 	return (
 		<>
-			<Box bg={useColorModeValue("white", "gray.800")} px={4}>
+			<Box
+				bg={useColorModeValue("white", "gray.800")}
+				px={4}
+				position="sticky"
+				top="0"
+				zIndex="100"
+			>
 				<Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
 					<Box>Vision XI</Box>
-
 					<Flex alignItems={"center"}>
 						<Stack direction={"row"} spacing={7}>
 							<Button onClick={toggleColorMode} borderRadius="1rem">
