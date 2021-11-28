@@ -17,10 +17,17 @@ import Hero from "../components/Hero";
 import Contact from "../components/Contact";
 import EventCard from "../components/EventCard";
 import Footer from "../components/Footer";
+import Team from "../components/Team";
+import Head from "next/head";
+import MemberCard from "../components/MemberCard";
+import events from "../events.json";
 
 export default function Home() {
 	return (
 		<>
+			<Head>
+				<title>Vision XI | SVIT Vasad</title>
+			</Head>
 			<Nav />
 			<Hero />
 			<Contact />
@@ -93,42 +100,9 @@ export default function Home() {
 									spacing="2rem"
 									columns={[1, null, 3, 3]}
 								>
-									<EventCard
-										title="Some Event"
-										category="TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="workshop"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
+									{events.map((event) => {
+										return <EventCard key={event.id} {...event} />;
+									})}
 								</SimpleGrid>
 							</TabPanel>
 							<TabPanel>
@@ -137,24 +111,10 @@ export default function Home() {
 									spacing="2rem"
 									columns={[1, null, 3, 3]}
 								>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
+									{events.map((event) => {
+										if (event.category.toLowerCase() == "tech")
+											return <EventCard key={event.id} {...event} />;
+									})}
 								</SimpleGrid>
 							</TabPanel>
 							<TabPanel>
@@ -163,24 +123,10 @@ export default function Home() {
 									spacing="2rem"
 									columns={[1, null, 3, 3]}
 								>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
+									{events.map((event) => {
+										if (event.category.toLowerCase() == "non-tech")
+											return <EventCard key={event.id} {...event} />;
+									})}
 								</SimpleGrid>
 							</TabPanel>
 							<TabPanel>
@@ -189,24 +135,10 @@ export default function Home() {
 									spacing="2rem"
 									columns={[1, null, 3, 3]}
 								>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
-									<EventCard
-										title="Some Event"
-										category="NON-TECH"
-										tagline="taaaag line fasdkj"
-										img="https://picsum.photos/200"
-									/>
+									{events.map((event) => {
+										if (event.category.toLowerCase() == "workshop")
+											return <EventCard key={event.id} {...event} />;
+									})}
 								</SimpleGrid>
 							</TabPanel>
 						</TabPanels>
@@ -225,8 +157,10 @@ export default function Home() {
 						and this year is no different. So make sure you register for our
 						amazing events and make the best out of your VISION experience!
 					</Text>
+					<Team />
 				</Container>
 			</Box>
+			<MemberCard />
 			<Footer />
 		</>
 	);

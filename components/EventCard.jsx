@@ -7,10 +7,28 @@ import {
 	Stack,
 	Avatar,
 	useColorModeValue,
+	useDisclosure,
+	Modal,
+	ModalOverlay,
+	ModalContent,
+	ModalHeader,
+	ModalCloseButton,
+	ModalBody,
+	Button,
+	ModalFooter,
+	Flex,
+	Tag,
+	IconButton,
+	Breadcrumb,
+	BreadcrumbItem,
+	BreadcrumbLink,
 } from "@chakra-ui/react";
+import { BsWhatsapp } from "react-icons/bs";
 
-export default function EventCard({ img, title, tagline, category }) {
-	const getColor = () => {
+export default function EventCard({ img, title, tagline, category, rounds }) {
+	const { isOpen, onOpen, onClose } = useDisclosure();
+
+	const handleGetColor = () => {
 		switch (category.toLowerCase()) {
 			case "tech":
 				return "blue";
@@ -25,46 +43,92 @@ export default function EventCard({ img, title, tagline, category }) {
 	};
 
 	return (
-		<Center py={6}>
-			<Box
-				maxW="25rem"
-				w="full"
-				bg={useColorModeValue("white", "gray.900")}
-				boxShadow="xl"
-				rounded="md"
-				p={6}
-				overflow="hidden"
-			>
+		<>
+			<Center py={6} onClick={onOpen}>
 				<Box
-					h={"210px"}
-					bg={"gray.100"}
-					mt={-6}
-					mx={-6}
-					mb={6}
-					pos={"relative"}
+					maxW="25rem"
+					w="full"
+					bg={useColorModeValue("white", "gray.900")}
+					boxShadow="xl"
+					rounded="md"
+					p={6}
+					overflow="hidden"
 				>
-					<Image src={img} layout="fill" alt="" />
+					<Box
+						h={"210px"}
+						bg={"gray.100"}
+						mt={-6}
+						mx={-6}
+						mb={6}
+						pos={"relative"}
+					>
+						<Image src={img} layout="fill" alt="" />
+					</Box>
+					<Stack>
+						<Text
+							color={`${handleGetColor()}.500`}
+							textTransform={"uppercase"}
+							fontWeight={800}
+							fontSize={"sm"}
+							letterSpacing={1.1}
+						>
+							{category}
+						</Text>
+						<Heading
+							color={useColorModeValue("gray.700", "white")}
+							fontSize={"2xl"}
+							fontFamily={"body"}
+						>
+							{title}
+						</Heading>
+						<Text color={"gray.500"}>{tagline}</Text>
+					</Stack>
 				</Box>
-				<Stack>
-					<Text
-						color={`${getColor()}.500`}
-						textTransform={"uppercase"}
-						fontWeight={800}
-						fontSize={"sm"}
-						letterSpacing={1.1}
-					>
-						{category}
-					</Text>
-					<Heading
-						color={useColorModeValue("gray.700", "white")}
-						fontSize={"2xl"}
-						fontFamily={"body"}
-					>
-						Boost your conversion rate
-					</Heading>
-					<Text color={"gray.500"}>{tagline}</Text>
-				</Stack>
-			</Box>
-		</Center>
+			</Center>
+			<Modal scrollBehavior="inside" isOpen={isOpen} onClose={onClose}>
+				<ModalOverlay />
+				<ModalContent>
+					<ModalHeader fontSize="lg" cursor="pointer">
+						{title}
+					</ModalHeader>
+					<ModalCloseButton />
+					<ModalBody>
+						{rounds?.map((round) => (
+							<Stack key={round.id} my="4">
+								<Flex justify="space-between" align="center">
+									<Heading size="sm" color="teal.400">
+										{category != "workshop" && `#${round.id}`} {round.title}
+									</Heading>
+									{!!round.duration && <Tag size="sm">{round.duration}</Tag>}
+								</Flex>
+								<Text>
+									{category == "workshop"
+										? round.description.split("•").map(
+												(line, key) =>
+													key !== 0 && (
+														<>
+															•&nbsp;{line}
+															<br />
+														</>
+													)
+										  )
+										: round.description}
+								</Text>
+							</Stack>
+						))}
+					</ModalBody>
+					<ModalFooter>
+						<Button
+							ml={3}
+							leftIcon={<BsWhatsapp />}
+							colorScheme="teal"
+							variant="solid"
+						>
+							Participate
+						</Button>
+					</ModalFooter>
+				</ModalContent>
+			</Modal>
+		</>
 	);
 }

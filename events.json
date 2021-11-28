@@ -1,49 +1,80 @@
 [
    {
-      "id": 1,
-      "title": "Event ka naam",
-      "tagline": "Event ka tagline",
-      "category": "tech | non-tech | workshop",
+      "id": 6,
+      "title": "Flutter for Application Development",
+      "tagline": "",
+      "category": "workshop",
+      "img": "https://picsum.photos/200",
       "rounds": [
          {
             "id": 1,
-            "title": "NeverHave I ever",
-            "tagline": "Round ka tagline",
-            "seats": "AMAP",
-            "duration": "25min",
-            "desc": "loremx10"
+            "title": "Day 1",
+            "description": "• Intro of OOP Concepts• What is Flutter and Dart?• How flutter renders the widgets• Simple contact details app development which you can share with others by creating the build• What is API and how we can integrate it?• Weather app using open weather API"
          },
          {
             "id": 2,
-            "title": "NeverHave I ever",
-            "tagline": "Round ka tagline",
-            "seats": "AMAP",
-            "duration": "25min",
-            "desc": "asdfasd asdfasdf adfasdf "
+            "title": "Day 2",
+            "description": "• What is project structure in flutter?• What is state and state management?• Explaining BLoC State Management• Recreate weather app using BLoC"
          }
       ]
    },
    {
       "id": 2,
-      "title": "Event ka naam",
-      "tagline": "Event ka tagline",
-      "category": "tech | non-tech | workshop",
+      "title": "Technotainment",
+      "tagline": "Full off tech senses",
+      "category": "tech",
+      "img": "https://picsum.photos/200",
       "rounds": [
          {
             "id": 1,
-            "title": "NeverHave I ever",
-            "tagline": "Round ka tagline",
-            "seats": "AMAP",
+            "title": "TechMaps",
+            "tagline": "The end is the new beginning",
             "duration": "25min",
-            "desc": "loremx10"
+            "description": "Here participants would be divided into the group of 4 where they will get a random word from the announcer and the timer for 10 seconds will start. As soon as the timer starts, that particular group must come-up with a word which starts with the last letter of the previous word given by the announcer and it should make some technical sense.."
          },
          {
             "id": 2,
-            "title": "NeverHave I ever",
-            "tagline": "Round ka tagline",
-            "seats": "AMAP",
+            "title": "Never Have I Ever…",
+            "tagline": "If You Can’t Convince Them, Confuse Them.",
             "duration": "25min",
-            "desc": "asdfasd asdfasdf adfasdf "
+            "description": "Here participants would be divided into the group of 4 where they will be given a professional industry or company or technology about which they would have to debate but with a twist in it which is that the company would have to roast the opposition for example"
+         },
+         {
+            "id": 3,
+            "title": "IdeoThon",
+            "tagline": "Blend your ideas and serve them hot!!",
+            "duration": "25min",
+            "description": "Participants will have to create their own startup idea and pitch these idea to the heads, the pitch may include their startup theme their startup required technologies and their vision towards their startup and how will they grow their startup."
+         }
+      ]
+   },
+   {
+      "id": 3,
+      "title": "Mysteriopolis",
+      "tagline": "Great Mystery Begin with Great Stories Fetched beyond eons",
+      "category": "tech",
+      "img": "https://picsum.photos/200",
+      "rounds": [
+         {
+            "id": 1,
+            "title": "MindSweeper",
+            "tagline": "wear your thinking caps or deerstalker hats!",
+            "duration": "25min",
+            "description": "A block of 25 or 16 imgs in such a manner that all the images are linked to each other and numbered in some order. After a few minutes participants will have to memorize the order value pair and the blocks which are related to each other. Participants will have to write the order value pair."
+         },
+         {
+            "id": 2,
+            "title": "TechOps",
+            "tagline": "To catch a criminal, think like a criminal",
+            "duration": "25min",
+            "description": "Teams have to solve clues related to the “MURDER OF SHAWN” on basis of there technical knowledge , which will lead to series of clues about murder of shawn. Team who solves all the clue and finds the murderer will win and will get qualify for the next round."
+         },
+         {
+            "id": 3,
+            "title": "Squid Game (Red Light, Green Light)",
+            "tagline": "Shhhhh don’t move!!!!!",
+            "duration": "25min",
+            "description": "Participants will have to create their own startup idea and pitch these idea to the heads, the pitch may include their startup theme their startup required technologies and their vision towards their startup and how will they grow their startup."
          }
       ]
    }

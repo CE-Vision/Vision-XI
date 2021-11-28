@@ -14,6 +14,8 @@ import {
 	Stack,
 	useColorMode,
 	Center,
+	Icon,
+	Image,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
@@ -46,7 +48,14 @@ export default function Nav() {
 				zIndex="100"
 			>
 				<Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-					<Box>Vision XI</Box>
+					<Box>
+						<Image
+							src="/favicon.ico"
+							alt="Vision XI"
+							height="30"
+							fill="teal.400"
+						/>
+					</Box>
 					<Flex alignItems={"center"}>
 						<Stack direction={"row"} spacing={7}>
 							<Button onClick={toggleColorMode} borderRadius="1rem">
