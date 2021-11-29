@@ -22,8 +22,11 @@ import Head from "next/head";
 import MemberCard from "../components/MemberCard";
 import events from "../events.json";
 import teams from "../teams.json";
+import { useContext } from "react";
+import { AppContext } from "./_app";
 
 export default function Home() {
+	const { team_tab, setTeamTab } = useContext(AppContext);
 	return (
 		<>
 			<Head>
@@ -163,9 +166,14 @@ export default function Home() {
 						Team that made it all possible
 					</Heading>
 					<Text color={useColorModeValue("teal.700,teal.100")}>
-						Some boring text praising our team
+						We know you don't read so why waste time in copywriting.
 					</Text>
-					<Tabs variant="soft-rounded" colorScheme="teal">
+					<Tabs
+						index={team_tab}
+						onChange={setTeamTab}
+						variant="soft-rounded"
+						colorScheme="teal"
+					>
 						<TabList my="4" flexWrap="wrap">
 							{Object.keys(teams).map((team, key) => (
 								<Tab

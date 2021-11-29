@@ -58,7 +58,6 @@ export default function MemberCard({
 							variant="ghost"
 							rounded="2xl"
 							colorScheme="teal"
-							aria-label="Call Sage"
 							fontSize="20px"
 							icon={<FiLinkedin />}
 							onClick={() => window.open(linkedin, "_blank")}
@@ -69,7 +68,6 @@ export default function MemberCard({
 							variant="ghost"
 							rounded="2xl"
 							colorScheme="teal"
-							aria-label="Call Sage"
 							fontSize="20px"
 							icon={<FiGithub />}
 							onClick={() => window.open(github, "_blank")}
@@ -80,7 +78,6 @@ export default function MemberCard({
 							variant="ghost"
 							rounded="2xl"
 							colorScheme="teal"
-							aria-label="Call Sage"
 							fontSize="20px"
 							icon={<FiLink />}
 							onClick={() => window.open(portfolio, "_blank")}

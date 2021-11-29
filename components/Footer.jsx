@@ -16,8 +16,12 @@ import {
 	AiFillHeart,
 } from "react-icons/ai";
 import Logo from "./Logo";
+import { useContext } from "react";
+import { AppContext } from "../pages/_app";
 
 export default function Footer() {
+	const { setTeamTab } = useContext(AppContext);
+
 	return (
 		<Box
 			bg={useColorModeValue("gray.50", "gray.900")}
@@ -37,7 +41,11 @@ export default function Footer() {
 					<Icon>
 						<AiFillHeart color="red" size="md" />
 					</Icon>{" "}
-					by the <Link color="teal">team</Link>.
+					by the{" "}
+					<Link color="teal" onClick={() => setTeamTab(1)}>
+						team
+					</Link>
+					.
 				</Heading>
 				<Stack direction={"row"} spacing={6}>
 					{/* <SocialButton label={"Twitter"} href={"#"}>

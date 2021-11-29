@@ -1,43 +1,55 @@
 {
    "Core": [
       {
-         "id": "1",
+         "id": 1,
+         "name": "Meet Shah",
+         "post": "Chief Coordinator",
+         "linkedin": "https://www.linkedin.com/in/meet-shah-5849751a9/"
+      },
+      {
+         "id": 2,
+         "name": "Harshita Daswani",
+         "post": "Chief Coordinator",
+         "linkedin": "https://www.linkedin.com/in/harshitabdaswani/"
+      },
+      {
+         "id": 3,
          "name": "Trishala Swain",
-         "team": "Core-Team",
-         "post": "Joint-Chief",
-         "linkedin": "https://linkedin.com/thevrajshah",
-         "portfolio": "https://vraj.codes"
+         "post": "Joint Chief Coordinator",
+         "linkedin": "https://www.linkedin.com/in/trishala01/",
+         "github": "https://github.com/trishala01"
+      },
+      {
+         "id": 4,
+         "name": "Nandaja Nair",
+         "post": "Joint Chief Coordinator"
       }
    ],
    "Web & Graphics": [
       {
-         "id": "1",
+         "id": 1,
          "name": "Jay Patel",
-         "team": "Web & Graphics",
          "post": "Head",
          "linkedin": "https://linkedin.com/in/imjp19",
          "portfolio": "https://imjp.dev"
       },
       {
-         "id": "2",
+         "id": 2,
          "name": "Vraj Shah",
-         "team": "Web & Graphics",
          "post": "Co-Head",
          "linkedin": "https://linkedin.com/thevrajshah",
          "portfolio": "https://vraj.codes"
       },
       {
-         "id": "3",
+         "id": 3,
          "name": "Darshil Rathod",
-         "team": "Web & Graphics",
          "post": "Co-Head",
          "linkedin": "https://linkedin.com/in/darshil-rathod-783679128",
          "portfolio": "https://bluelearn.in"
       },
       {
-         "id": "4",
+         "id": 4,
          "name": "Harsh Sachaniya",
-         "team": "Web & Graphics",
          "post": "Volunteer",
          "linkedin": "https://linkedin.com/thevrajshah",
          "portfolio": "https://Harsh2220.netlify.app"
@@ -47,27 +59,23 @@
       {
          "id": 1,
          "name": "Gautami Parikh",
-         "team": "Decoration",
          "post": "Head",
          "linkedin": "https://www.linkedin.com/gautami-parikh"
       },
       {
          "id": 2,
          "name": "Jarul Solanki",
-         "team": "Decoration",
          "post": "Head",
          "linkedin": "https://www.linkedin.com/in/jarul-solanki-2139461b3/"
       },
       {
          "id": 3,
          "name": "Vruddhi Patel",
-         "team": "Decoration",
          "post": "Co-Head"
       },
       {
          "id": 4,
          "name": "Rishika Pandit",
-         "team": "Decoration",
          "post": "Co-Head",
          "linkedin": "https://www.linkedin.com/in/rishika-pandit-23383a219",
          "portfolio": ""
@@ -77,7 +85,6 @@
       {
          "id": 1,
          "name": "Akshar Vandara",
-         "team": "Technical",
          "post": "Head",
          "linkedin": "",
          "portfolio": ""
@@ -85,7 +92,6 @@
       {
          "id": 2,
          "name": "Satyam Kandoi ",
-         "team": "Technical",
          "post": "Co-Head",
          "linkedin": "https://www.linkedin.com/in/satyam-kandoi/",
          "portfolio": ""
@@ -95,7 +101,6 @@
       {
          "id": 1,
          "name": "Margi Patel",
-         "team": "Non-Technical",
          "post": "Head",
          "linkedin": "",
          "portfolio": ""
