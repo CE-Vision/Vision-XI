@@ -47,14 +47,14 @@ export default function Footer() {
 						<FaYoutube />
 					</SocialButton> */}
 					<SocialButton
-						label={"Instagram"}
-						href={"https://www.instagram.com/cevision_xi/"}
+						label="Instagram"
+						href="https://www.instagram.com/cevision_xi/"
 					>
 						<AiOutlineInstagram />
 					</SocialButton>
 					<SocialButton
-						label={"Whatsapp"}
-						href={"https://api.whatsapp.com/send?phone=+916353798783"}
+						label="Whatsapp"
+						href="https://api.whatsapp.com/send?phone=+916353798783"
 					>
 						<AiOutlineWhatsApp />
 					</SocialButton>

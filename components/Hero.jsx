@@ -10,6 +10,7 @@ import {
 	Box,
 	Code,
 	useColorModeValue,
+	Image,
 } from "@chakra-ui/react";
 import Countdown from "./Countdown";
 
@@ -17,13 +18,14 @@ export default function CallToActionWithIllustration() {
 	return (
 		<>
 			<Box>
-				<Container maxW={"5xl"} py="8">
+				<Container maxW={"5xl"} py="4">
 					<Stack
 						direction={{ base: "column", lg: "row", xl: "row" }}
 						textAlign={"center"}
+						justifyContent="space-between"
 						align={"center"}
 						spacing={{ base: 8, md: 10 }}
-						py={{ base: 20, md: 25 }}
+						py={{ base: 12, md: 18 }}
 					>
 						<Stack>
 							<Heading
@@ -71,11 +73,12 @@ export default function CallToActionWithIllustration() {
 							</a>
 							{/* </Stack> */}
 						</Stack>
-						<Flex w={"full"}>
-							<Illustration
+						<Flex w={"full"} justifyContent="center">
+							{/* <Illustration
 								height={{ sm: "16rem", lg: "18rem" }}
 								mt={{ base: 12, sm: 16 }}
-							/>
+							/> */}
+							<Image width="lg" src="/art.png" alt="hi" />
 						</Flex>
 					</Stack>
 				</Container>
