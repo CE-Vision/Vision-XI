@@ -10,7 +10,11 @@ import {
 	VisuallyHidden,
 } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import { AiFillHeart } from "react-icons/ai";
+import {
+	AiOutlineWhatsApp,
+	AiOutlineInstagram,
+	AiFillHeart,
+} from "react-icons/ai";
 import Logo from "./Logo";
 
 export default function Footer() {
@@ -46,7 +50,13 @@ export default function Footer() {
 						label={"Instagram"}
 						href={"https://www.instagram.com/cevision_xi/"}
 					>
-						<FaInstagram />
+						<AiOutlineInstagram />
+					</SocialButton>
+					<SocialButton
+						label={"Whatsapp"}
+						href={"https://api.whatsapp.com/send?phone=+916353798783"}
+					>
+						<AiOutlineWhatsApp />
 					</SocialButton>
 				</Stack>
 			</Container>
