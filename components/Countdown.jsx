@@ -66,8 +66,16 @@ const Countdown = () => {
 			<Box py="3">
 				{timerComponents.length ? (
 					<Box>
+						<Heading fontSize="10" letterSpacing="1px" color="teal.200">
+							HOLD TIGHT!
+						</Heading>
 						<Heading size="lg">{timerComponents}</Heading>
-						<Heading fontSize="10" letterSpacing="1px" color="orange.200">
+						<Heading
+							fontSize={10}
+							letterSpacing="1px"
+							color="orange.200"
+							mb={5}
+						>
 							DAYS &nbsp; HOURS &nbsp; MINS
 						</Heading>
 					</Box>

@@ -57,7 +57,6 @@ export default function CallToActionWithIllustration() {
 							>
 								Talk is cheap, show me the code.
 							</Text>
-							<Countdown />
 
 							{/* <Stack py="1" spacing={6} direction={["column", "row", "row"]}> */}
 							<a href="#events">
@@ -72,6 +71,7 @@ export default function CallToActionWithIllustration() {
 								</Button>
 							</a>
 							{/* </Stack> */}
+							<Countdown />
 						</Stack>
 						<Flex w={"full"} justifyContent="center">
 							{/* <Illustration
