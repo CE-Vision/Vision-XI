@@ -1,8 +1,100 @@
-[
-   {
-      "name": "Vraj Shah",
-      "team": "Web & Graphics",
-      "linkedin": "",
-      "github": ""
-   }
-]
+{
+   "Web & Graphics": [
+      {
+         "id": "1",
+         "name": "Jay Patel",
+         "team": "Web & Graphics",
+         "post": "Head",
+         "linkedin": "https://linkedin.com/in/imjp19",
+         "portfolio": "https://imjp.dev"
+      },
+      {
+         "id": "2",
+         "name": "Darshil Rathod",
+         "team": "Web & Graphics",
+         "post": "Co-Head",
+         "linkedin": "https://linkedin.com/in/darshil-rathod-783679128",
+         "portfolio": "https://bluelearn.in"
+      },
+      {
+         "id": "3",
+         "name": "Vraj Shah",
+         "team": "Web & Graphics",
+         "post": "Co-Head",
+         "linkedin": "https://linkedin.com/thevrajshah",
+         "portfolio": "https://vraj.codes"
+      }
+   ],
+   "Chief Coordinators": [
+      {
+         "id": "1",
+         "name": "Vraj Shah",
+         "team": "Web & Graphics",
+         "post": "Co-Head",
+         "linkedin": "https://linkedin.com/thevrajshah",
+         "portfolio": "https://vraj.codes"
+      }
+   ],
+   "Decoration": [
+      {
+         "id": 1,
+         "name": "Gautami Parikh",
+         "team": "Decoration",
+         "post": "Head",
+         "linkedin": "https://www.linkedin.com/gautami-parikh",
+         "portfolio": "https://vraj.codes"
+      },
+      {
+         "id": 2,
+         "name": "Jarul Solanki",
+         "team": "Decoration",
+         "post": "Head",
+         "linkedin": "https://www.linkedin.com/in/jarul-solanki-2139461b3/",
+         "portfolio": ""
+      },
+      {
+         "id": 3,
+         "name": "Vruddhi Patel",
+         "team": "Decoration",
+         "post": "Co-Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 4,
+         "name": "Rishika Pandit ",
+         "team": "Decoration",
+         "post": "Co-Head",
+         "linkedin": "https://www.linkedin.com/in/rishika-pandit-23383a219",
+         "portfolio": ""
+      }
+   ],
+   "Technical": [
+      {
+         "id": 1,
+         "name": "Akshar Vandara",
+         "team": "Technical",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Satyam Kandoi ",
+         "team": "Technical",
+         "post": "Co-Head",
+         "linkedin": "https://www.linkedin.com/in/satyam-kandoi/",
+         "portfolio": ""
+      }
+   ],
+   "Non-Technical": [
+      {
+         "id": 1,
+         "name": "Akshar Vandara",
+         "team": "Non-Technical",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      }
+   ]
+}
