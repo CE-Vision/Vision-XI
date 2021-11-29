@@ -138,6 +138,12 @@ export default function EventCard({
 							leftIcon={<AiOutlineWhatsApp />}
 							colorScheme="teal"
 							variant="solid"
+							onClick={() =>
+								window.open(
+									"https://api.whatsapp.com/send?phone=+916353798783",
+									"_blank"
+								)
+							}
 						>
 							Participate
 						</Button>
