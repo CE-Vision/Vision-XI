@@ -152,7 +152,7 @@ export default function Home() {
 					</Tabs>
 				</Container>
 			</Box>
-			<Box bg={useColorModeValue("teal.100", "teal.500")}>
+			{/* <Box bg={useColorModeValue("teal.100", "teal.500")}>
 				<Container maxW={"6xl"} py="12">
 					<Heading
 						size="xl"
@@ -164,10 +164,10 @@ export default function Home() {
 					<Text color={useColorModeValue("teal.700,teal.100")}>
 						Some content praising aur team
 					</Text>
-					{/* <MemberCard /> */}
+					{/* <MemberCard /> 
 				</Container>
 			</Box>
-			<Team />
+			<Team /> */}
 
 			<Footer />
 		</>
