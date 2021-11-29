@@ -105,9 +105,9 @@ export default function Nav() {
 									width="12.5198"
 									height="26.983"
 									filterUnits="userSpaceOnUse"
-									color-interpolation-filters="sRGB"
+									colorInterpolationFilters="sRGB"
 								>
-									<feFlood flood-opacity="0" result="BackgroundImageFix" />
+									<feFlood floodOpacity="0" result="BackgroundImageFix" />
 									<feColorMatrix
 										in="SourceAlpha"
 										type="matrix"
@@ -140,9 +140,9 @@ export default function Nav() {
 									width="25.0583"
 									height="33.7453"
 									filterUnits="userSpaceOnUse"
-									color-interpolation-filters="sRGB"
+									colorInterpolationFilters="sRGB"
 								>
-									<feFlood flood-opacity="0" result="BackgroundImageFix" />
+									<feFlood floodOpacity="0" result="BackgroundImageFix" />
 									<feColorMatrix
 										in="SourceAlpha"
 										type="matrix"
@@ -175,9 +175,9 @@ export default function Nav() {
 									width="24.5396"
 									height="33.0402"
 									filterUnits="userSpaceOnUse"
-									color-interpolation-filters="sRGB"
+									colorInterpolationFilters="sRGB"
 								>
-									<feFlood flood-opacity="0" result="BackgroundImageFix" />
+									<feFlood floodOpacity="0" result="BackgroundImageFix" />
 									<feColorMatrix
 										in="SourceAlpha"
 										type="matrix"

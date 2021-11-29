@@ -167,8 +167,9 @@ export default function Home() {
 					</Text>
 					<Tabs variant="soft-rounded" colorScheme="teal">
 						<TabList my="4" flexWrap="wrap">
-							{Object.keys(teams).map((team) => (
+							{Object.keys(teams).map((team, key) => (
 								<Tab
+									key={key}
 									color={useColorModeValue("teal.900", "teal.50")}
 									me="2"
 									mb="2"
