@@ -50,7 +50,6 @@
          "team": "Decoration",
          "post": "Head",
          "linkedin": "https://www.linkedin.com/gautami-parikh",
-         "portfolio": "https://vraj.codes"
       },
       {
          "id": 2,
@@ -58,19 +57,17 @@
          "team": "Decoration",
          "post": "Head",
          "linkedin": "https://www.linkedin.com/in/jarul-solanki-2139461b3/",
-         "portfolio": ""
       },
       {
          "id": 3,
          "name": "Vruddhi Patel",
          "team": "Decoration",
-         "post": "Co-Head",
-         "linkedin": "",
-         "portfolio": ""
+         "post": "Co-Head"
+         // "linkedin": "",
       },
       {
          "id": 4,
-         "name": "Rishika Pandit ",
+         "name": "Rishika Pandit",
          "team": "Decoration",
          "post": "Co-Head",
          "linkedin": "https://www.linkedin.com/in/rishika-pandit-23383a219",

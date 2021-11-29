@@ -21,7 +21,7 @@ import Team from "../components/Team";
 import Head from "next/head";
 import MemberCard from "../components/MemberCard";
 import events from "../events.json";
-import teams from "../teams.json";
+import teams from "../teams.jsonc";
 
 export default function Home() {
 	return (

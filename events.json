@@ -57,10 +57,10 @@
       "rounds": [
          {
             "id": 1,
-            "title": "MindSweeper",
-            "tagline": "wear your thinking caps or deerstalker hats!",
+            "title": "Tic-Tech-Toe",
+            "tagline": "Life is a game of tic-tac-toe, constantly waiting for the next X or O.",
             "duration": "25min",
-            "description": "A block of 25 or 16 imgs in such a manner that all the images are linked to each other and numbered in some order. After a few minutes participants will have to memorize the order value pair and the blocks which are related to each other. Participants will have to write the order value pair."
+            "description": "Participants will be provided with a tic-tac-toe puzzle and a link of google form. Participants will be grouped randomly in a team of 2 where they will compete with other teams. The team which wins the game of tic-tac-toe will be further qualifying. In the event of tie, the group with the maximum number of questions solved will be the winner."
          },
          {
             "id": 2,
