@@ -1,4 +1,14 @@
 {
+   "Core": [
+      {
+         "id": "1",
+         "name": "Trishala Swain",
+         "team": "Core-Team",
+         "post": "Joint-Chief",
+         "linkedin": "https://linkedin.com/thevrajshah",
+         "portfolio": "https://vraj.codes"
+      }
+   ],
    "Web & Graphics": [
       {
          "id": "1",
@@ -10,19 +20,19 @@
       },
       {
          "id": "2",
-         "name": "Darshil Rathod",
-         "team": "Web & Graphics",
-         "post": "Co-Head",
-         "linkedin": "https://linkedin.com/in/darshil-rathod-783679128",
-         "portfolio": "https://bluelearn.in"
-      },
-      {
-         "id": "3",
          "name": "Vraj Shah",
          "team": "Web & Graphics",
          "post": "Co-Head",
          "linkedin": "https://linkedin.com/thevrajshah",
          "portfolio": "https://vraj.codes"
+      },
+      {
+         "id": "3",
+         "name": "Darshil Rathod",
+         "team": "Web & Graphics",
+         "post": "Co-Head",
+         "linkedin": "https://linkedin.com/in/darshil-rathod-783679128",
+         "portfolio": "https://bluelearn.in"
       },
       {
          "id": "4",
@@ -31,16 +41,6 @@
          "post": "Volunteer",
          "linkedin": "https://linkedin.com/thevrajshah",
          "portfolio": "https://Harsh2220.netlify.app"
-      }
-   ],
-   "Chief Coordinators": [
-      {
-         "id": "1",
-         "name": "Trishala Swain",
-         "team": "Core-Team",
-         "post": "Joint-Chief",
-         "linkedin": "https://linkedin.com/thevrajshah",
-         "portfolio": "https://vraj.codes"
       }
    ],
    "Decoration": [

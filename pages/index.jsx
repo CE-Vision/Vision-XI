@@ -21,6 +21,7 @@ import Team from "../components/Team";
 import Head from "next/head";
 import MemberCard from "../components/MemberCard";
 import events from "../events.json";
+import teams from "../teams.json";
 
 export default function Home() {
 	return (
@@ -152,7 +153,7 @@ export default function Home() {
 					</Tabs>
 				</Container>
 			</Box>
-			{/* <Box bg={useColorModeValue("teal.100", "teal.500")}>
+			<Box bg={useColorModeValue("gray.100", "gray.700")}>
 				<Container maxW={"6xl"} py="12">
 					<Heading
 						size="xl"
@@ -162,12 +163,39 @@ export default function Home() {
 						Team that made it all possible
 					</Heading>
 					<Text color={useColorModeValue("teal.700,teal.100")}>
-						Some content praising aur team
+						Some boring text praising our team
 					</Text>
-					{/* <MemberCard /> 
+					<Tabs variant="soft-rounded" colorScheme="teal">
+						<TabList my="4" flexWrap="wrap">
+							{Object.keys(teams).map((team) => (
+								<Tab
+									color={useColorModeValue("teal.900", "teal.50")}
+									me="2"
+									mb="2"
+								>
+									{team}
+								</Tab>
+							))}
+						</TabList>
+						<TabPanels>
+							{Object.entries(teams).map((team, key) => (
+								<TabPanel p="0" key={key}>
+									<SimpleGrid
+										minChildWidth={[250, null, 320, 320]}
+										spacing="2rem"
+										columns={[1, null, 3, 3]}
+									>
+										{team[1].map((member) => (
+											<MemberCard key={member.id} team={team[0]} {...member} />
+										))}
+									</SimpleGrid>
+								</TabPanel>
+							))}
+						</TabPanels>
+					</Tabs>
 				</Container>
 			</Box>
-			<Team /> */}
+			{/* <Team /> */}
 
 			<Footer />
 		</>

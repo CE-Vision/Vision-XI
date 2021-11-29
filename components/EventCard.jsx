@@ -58,7 +58,7 @@ export default function EventCard({
 					w="full"
 					bg={useColorModeValue("white", "gray.900")}
 					boxShadow="xl"
-					rounded="md"
+					rounded="2xl"
 					p={6}
 					overflow="hidden"
 				>
