@@ -37,11 +37,11 @@ export default function Home() {
 						What is Vision?
 					</Heading>
 					<Text color={useColorModeValue("teal.700,teal.100")}>
-						Vision, the most awaited tech fest for SVIT students, is back;
-						better and stro longer with VISION XI. The Computer Department has
-						the reputation of providing the best symposium experience since 10
-						years and this year is no different. So make sure you register for
-						our amazing events and make the best out of your VISION experience!
+						Vision, the most awaited tech fest for SVIT students is back, better
+						and stronger with VISION XI. The Computer Department has the
+						reputation of providing the best symposium experience since 10 years
+						and this year is no different. So make sure you register for our
+						amazing events and make the best out of your VISION experience!
 					</Text>
 				</Container>
 			</Box>
@@ -57,8 +57,12 @@ export default function Home() {
 					</Text>
 
 					<Tabs variant="soft-rounded" colorScheme="teal">
-						<TabList my="4">
-							<Tab color={useColorModeValue("teal.900", "teal.50")} me="2">
+						<TabList my="4" flexWrap="wrap">
+							<Tab
+								color={useColorModeValue("teal.900", "teal.50")}
+								me="2"
+								mb="2"
+							>
 								All
 							</Tab>
 							<Tab
@@ -68,6 +72,7 @@ export default function Home() {
 									color: "blue.900",
 								}}
 								me="2"
+								mb="2"
 							>
 								Tech
 							</Tab>
@@ -78,6 +83,7 @@ export default function Home() {
 									color: "green.900",
 								}}
 								me="2"
+								mb="2"
 							>
 								Non-Tech
 							</Tab>
@@ -88,15 +94,16 @@ export default function Home() {
 									color: "yellow.900",
 								}}
 								me="2"
+								mb="2"
 							>
 								Workshops
 							</Tab>
 						</TabList>
 
 						<TabPanels>
-							<TabPanel>
+							<TabPanel p="0">
 								<SimpleGrid
-									minChildWidth="20rem"
+									minChildWidth={[250, null, 320, 320]}
 									spacing="2rem"
 									columns={[1, null, 3, 3]}
 								>
@@ -105,9 +112,9 @@ export default function Home() {
 									})}
 								</SimpleGrid>
 							</TabPanel>
-							<TabPanel>
+							<TabPanel p="0">
 								<SimpleGrid
-									minChildWidth="20rem"
+									minChildWidth={[250, null, 320, 320]}
 									spacing="2rem"
 									columns={[1, null, 3, 3]}
 								>
@@ -117,9 +124,9 @@ export default function Home() {
 									})}
 								</SimpleGrid>
 							</TabPanel>
-							<TabPanel>
+							<TabPanel p="0">
 								<SimpleGrid
-									minChildWidth="20rem"
+									minChildWidth={[250, null, 320, 320]}
 									spacing="2rem"
 									columns={[1, null, 3, 3]}
 								>
@@ -129,9 +136,9 @@ export default function Home() {
 									})}
 								</SimpleGrid>
 							</TabPanel>
-							<TabPanel>
+							<TabPanel p="0">
 								<SimpleGrid
-									minChildWidth="20rem"
+									minChildWidth={[250, null, 320, 320]}
 									spacing="2rem"
 									columns={[1, null, 3, 3]}
 								>
@@ -147,20 +154,21 @@ export default function Home() {
 			</Box>
 			<Box bg={useColorModeValue("teal.100", "teal.500")}>
 				<Container maxW={"6xl"} py="12">
-					<Heading size="xl" color={useColorModeValue("teal.800,teal.50")}>
-						The Team
+					<Heading
+						size="xl"
+						mb="3"
+						color={useColorModeValue("teal.800,teal.50")}
+					>
+						Team that made it all possible
 					</Heading>
 					<Text color={useColorModeValue("teal.700,teal.100")}>
-						Vision, the most awaited tech fest for SVIT students is back, better
-						and stronger with VISION XI. The Computer Department has the
-						reputation of providing the best symposium experience since 10 years
-						and this year is no different. So make sure you register for our
-						amazing events and make the best out of your VISION experience!
+						Some content praising aur team
 					</Text>
-					<Team />
+					{/* <MemberCard /> */}
 				</Container>
 			</Box>
-			<MemberCard />
+			<Team />
+
 			<Footer />
 		</>
 	);

@@ -2,11 +2,15 @@ import {
 	Box,
 	chakra,
 	Container,
+	Heading,
+	Icon,
+	Link,
 	Stack,
 	useColorModeValue,
 	VisuallyHidden,
 } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { AiFillHeart } from "react-icons/ai";
 import Logo from "./Logo";
 
 export default function Footer() {
@@ -24,7 +28,13 @@ export default function Footer() {
 				justify={{ base: "center", md: "space-between" }}
 				align={{ base: "center", md: "center" }}
 			>
-				<Logo />
+				<Heading size="sm">
+					Made with{" "}
+					<Icon>
+						<AiFillHeart color="red" size="md" />
+					</Icon>{" "}
+					by the <Link color="teal">team</Link>.
+				</Heading>
 				<Stack direction={"row"} spacing={6}>
 					{/* <SocialButton label={"Twitter"} href={"#"}>
 						<FaTwitter />

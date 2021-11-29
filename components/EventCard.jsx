@@ -23,9 +23,16 @@ import {
 	BreadcrumbItem,
 	BreadcrumbLink,
 } from "@chakra-ui/react";
-import { BsWhatsapp } from "react-icons/bs";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
-export default function EventCard({ img, title, tagline, category, rounds }) {
+export default function EventCard({
+	id,
+	img,
+	title,
+	tagline,
+	category,
+	rounds,
+}) {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
 	const handleGetColor = () => {
@@ -47,6 +54,7 @@ export default function EventCard({ img, title, tagline, category, rounds }) {
 			<Center py={6} onClick={onOpen}>
 				<Box
 					maxW="25rem"
+					minH="24rem"
 					w="full"
 					bg={useColorModeValue("white", "gray.900")}
 					boxShadow="xl"
@@ -62,7 +70,12 @@ export default function EventCard({ img, title, tagline, category, rounds }) {
 						mb={6}
 						pos={"relative"}
 					>
-						<Image src={img} layout="fill" alt="" />
+						<Image
+							src={`/events/${id}.webp`}
+							layout="fill"
+							objectFit="cover"
+							alt=""
+						/>
 					</Box>
 					<Stack>
 						<Text
@@ -81,7 +94,9 @@ export default function EventCard({ img, title, tagline, category, rounds }) {
 						>
 							{title}
 						</Heading>
-						<Text color={"gray.500"}>{tagline}</Text>
+						<Text color={"gray.500"} noOfLines={2}>
+							{tagline}
+						</Text>
 					</Stack>
 				</Box>
 			</Center>
@@ -120,7 +135,7 @@ export default function EventCard({ img, title, tagline, category, rounds }) {
 					<ModalFooter>
 						<Button
 							ml={3}
-							leftIcon={<BsWhatsapp />}
+							leftIcon={<AiOutlineWhatsApp />}
 							colorScheme="teal"
 							variant="solid"
 						>

@@ -12,8 +12,10 @@ import {
 	TabPanels,
 	TabPanel,
 	Stack,
+	IconButton,
 } from "@chakra-ui/react";
 import { Router } from "next/dist/client/router";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 function DepartmentTab({ department }) {
 	return (
@@ -29,23 +31,34 @@ function DepartmentTab({ department }) {
 	);
 }
 
-function Member({ name, image }) {
+function Member({ name, image, post }) {
 	return (
 		<Center
 			flexDirection="column"
 			py={6}
 			onClick={() => window.open("google.com", "_blank")}
+			background="teal"
+			width="220px"
+			height="300px"
+			borderRadius="5"
 		>
 			<Image
-				borderRadius="50%"
-				boxSize="200px"
+				borderRadius="5"
+				boxSize="180px"
 				objectFit="cover"
 				src={image}
 				alt={name}
 			/>
-			<Text pt="3" fontWeight="bold" fontSize="20" textAlign="center">
+			<Text pt="1" fontWeight="bold" fontSize="20" textAlign="center">
 				{name}
 			</Text>
+			<Text pt="0" fontWeight="bold" fontSize="sm" textAlign="center">
+				{post}
+			</Text>
+			<Stack direction="horizontal">
+				<IconButton variant="ghost" icon={<BsLinkedin />} />
+				<IconButton variant="ghost" icon={<BsGithub />} />
+			</Stack>
 		</Center>
 	);
 }
@@ -53,47 +66,10 @@ function Member({ name, image }) {
 export default function Team() {
 	return (
 		<Container maxW={"6xl"} py="12">
-			<Heading textAlign="center">Team that made it all possible</Heading>
-			<Text
-				pt="10"
-				fontWeight="semi-bold"
-				fontSize="30"
-				textAlign="center"
-				textDecoration="underline"
-			>
-				Cheif Co-ordinators
-			</Text>
-			<SimpleGrid pt="4" minChildWidth="20rem" columns={[1, 3, 3]}>
-				<Member name="Darshil Rathod" image="/members/test.jpg" />
-				<Member name="Darshil Rathod" image="/members/test.jpg" />
-			</SimpleGrid>
-
-			<Text
-				pt="10"
-				fontWeight="semi-bold"
-				fontSize="30"
-				textAlign="center"
-				textDecoration="underline"
-			>
-				Joint Co-ordinators
-			</Text>
-			<SimpleGrid pt="4" minChildWidth="20rem" columns={[1, 3, 3]}>
-				<Member name="Darshil Rathod" image="/members/test.jpg" />
-				<Member name="Darshil Rathod" image="/members/test.jpg" />
-				<Member name="Darshil Rathod" image="/members/test.jpg" />
-			</SimpleGrid>
-
-			<Text
-				pt="10"
-				fontWeight="semi-bold"
-				fontSize="30"
-				textAlign="center"
-				textDecoration="underline"
-			>
-				Departments
-			</Text>
+			{/* <Heading textAlign="center">Team that made it all possible</Heading> */}
 			<Tabs variant="soft-rounded" colorScheme="teal">
-				<TabList display="flex" justifyContent="center" pt="4">
+				<TabList justifyContent="center" my="4" flexWrap="wrap">
+					<DepartmentTab department="Core Team" />
 					<DepartmentTab department="Web & Graphics" />
 					<DepartmentTab department="Tech" />
 					<DepartmentTab department="Non-Tech" />
@@ -102,31 +78,99 @@ export default function Team() {
 				</TabList>
 				<TabPanels>
 					<TabPanel>
-						<SimpleGrid pt="4" minChildWidth="20rem" columns={[1, 3, 3]}>
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
+						<SimpleGrid
+							placeItems={"center"}
+							pt="4"
+							minChildWidth="15rem"
+							columns={[1, 3, 3]}
+						>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
 						</SimpleGrid>
 					</TabPanel>
 					<TabPanel>
-						<SimpleGrid pt="4" minChildWidth="20rem" columns={[1, 3, 3]}>
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
+						<SimpleGrid
+							placeItems={"center"}
+							pt="4"
+							minChildWidth="15rem"
+							columns={[1, 3, 3]}
+						>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
 						</SimpleGrid>
 					</TabPanel>
 					<TabPanel>
-						<SimpleGrid pt="4" minChildWidth="20rem" columns={[1, 3, 3]}>
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
+						<SimpleGrid
+							placeItems={"center"}
+							pt="4"
+							minChildWidth="15rem"
+							columns={[1, 3, 3]}
+						>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
 						</SimpleGrid>
 					</TabPanel>
 					<TabPanel>
-						<SimpleGrid pt="4" minChildWidth="20rem" columns={[1, 3, 3]}>
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
-							<Member name="Darshil Rathod" image="/members/test.jpg" />
+						<SimpleGrid
+							placeItems={"center"}
+							pt="4"
+							minChildWidth="15rem"
+							columns={[1, 3, 3]}
+						>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
+							<Member
+								name="Darshil Rathod"
+								post="Co-Head"
+								image="/members/test.jpg"
+							/>
 						</SimpleGrid>
 					</TabPanel>
 				</TabPanels>

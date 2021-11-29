@@ -11,6 +11,7 @@ import {
 	Code,
 	useColorModeValue,
 } from "@chakra-ui/react";
+import Countdown from "./Countdown";
 
 export default function CallToActionWithIllustration() {
 	return (
@@ -54,6 +55,8 @@ export default function CallToActionWithIllustration() {
 							>
 								Talk is cheap, show me the code.
 							</Text>
+							<Countdown />
+
 							<Stack py="1" spacing={6} direction={"row"}>
 								<a href="#events">
 									<Button
