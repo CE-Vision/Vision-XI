@@ -57,22 +57,19 @@ export default function CallToActionWithIllustration() {
 							</Text>
 							<Countdown />
 
-							<Stack py="1" spacing={6} direction={"row"}>
-								<a href="#events">
-									<Button
-										rounded={"full"}
-										px={6}
-										colorScheme={"teal"}
-										bg={"teal.400"}
-										_hover={{ bg: "teal.500" }}
-									>
-										Explore events
-									</Button>
-								</a>
-								<Button rounded={"full"} px={6}>
-									Learn more
+							{/* <Stack py="1" spacing={6} direction={["column", "row", "row"]}> */}
+							<a href="#events">
+								<Button
+									rounded={"full"}
+									px={6}
+									colorScheme={"teal"}
+									bg={"teal.400"}
+									_hover={{ bg: "teal.500" }}
+								>
+									Explore events
 								</Button>
-							</Stack>
+							</a>
+							{/* </Stack> */}
 						</Stack>
 						<Flex w={"full"}>
 							<Illustration
