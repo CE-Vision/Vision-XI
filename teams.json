@@ -84,13 +84,20 @@
    "Technical": [
       {
          "id": 1,
-         "name": "Akshar Vandara",
+         "name": "Aum Sathwara",
          "post": "Head",
          "linkedin": "",
          "portfolio": ""
       },
       {
          "id": 2,
+         "name": "Akshar Vandara",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 3,
          "name": "Satyam Kandoi ",
          "post": "Co-Head",
          "linkedin": "https://www.linkedin.com/in/satyam-kandoi/",
@@ -100,6 +107,27 @@
    "Non-Technical": [
       {
          "id": 1,
+         "name": "Durva Brahmbhatt",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Margi Patel",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 3,
+         "name": "Hitiksha Modi",
+         "post": "Co-Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 4,
          "name": "Margi Patel",
          "post": "Head",
          "linkedin": "",
