@@ -55,10 +55,10 @@ export default function Home() {
 						Events
 					</Heading>
 
-					<Text color={useColorModeValue("teal.700,teal.100")}>
+					{/* <Text color={useColorModeValue("teal.700,teal.100")}>
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 						Exercitationem, vero.
-					</Text>
+					</Text> */}
 
 					<Tabs variant="soft-rounded" colorScheme="teal">
 						<TabList my="4" flexWrap="wrap">
