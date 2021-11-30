@@ -75,6 +75,11 @@ export default function Team() {
 					<DepartmentTab department="Non-Tech" />
 					<DepartmentTab department="Promotion" />
 					<DepartmentTab department="Decoration" />
+					<DepartmentTab department="Finance" />
+					<DepartmentTab department="OTS" />
+					
+
+
 				</TabList>
 				<TabPanels>
 					<TabPanel>

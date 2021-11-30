@@ -15,7 +15,8 @@
       {
          "id": 3,
          "name": "Dhrumil Shah",
-         "post": "Advisor"
+         "post": "Advisor",
+         "linkedin": "https://www.linkedin.com/in/dhrumil-shah-4106191a0"
       },
       {
          "id": 4,
@@ -40,25 +41,33 @@
       },
       {
          "id": 2,
-         "name": "Vraj Shah",
-         "post": "Co-Head",
+         "name": "Vatsal Roy",
+         "post": "Head",
          "linkedin": "https://linkedin.com/thevrajshah",
-         "portfolio": "https://vraj.codes"
+         "portfolio": "https://Harsh2220.netlify.app"
       },
       {
          "id": 3,
+         "name": "Vraj Shah",
+         "post": "Co-Head",
+         "linkedin": "https://linkedin.com/in/thevrajshah",
+         "portfolio": "https://vraj.codes"
+      },
+      {
+         "id": 4,
          "name": "Darshil Rathod",
          "post": "Co-Head",
          "linkedin": "https://linkedin.com/in/darshil-rathod-783679128",
          "portfolio": "https://bluelearn.in"
       },
       {
-         "id": 4,
+         "id": 5,
          "name": "Harsh Sachaniya",
          "post": "Volunteer",
-         "linkedin": "https://linkedin.com/thevrajshah",
+         "linkedin": "https://www.linkedin.com/in/harsh-sachaniya-98007b1a9",
          "portfolio": "https://Harsh2220.netlify.app"
       }
+      
    ],
    "Decoration": [
       {
@@ -135,5 +144,69 @@
          "linkedin": "",
          "portfolio": ""
       }
+   ],
+   "Promotion": [
+      {
+         "id": 1,
+         "name": "Nirav Patel",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Kunjan Tailor",
+         "post": "Head",
+         "linkedin": "https://linkedin.com/in/kunjan-tailor-993b101b7",
+         "portfolio": ""
+      },
+      {
+         "id": 3,
+         "name": "Mitesh Agarwal",
+         "post": "Co-Head",
+         "linkedin": "",
+         "portfolio": ""
+      }
+   ],
+   "Finance": [
+      {
+         "id": 1,
+         "name": "Heta Chokshi",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Arya Pradeep",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 3,
+         "name": "Krima Patel",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      }
+      
+   ],
+   "OTS": [
+      {
+         "id": 1,
+         "name": "Nitya Shrivastava",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Drashti Vyas",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      }
+      
    ]
 }
