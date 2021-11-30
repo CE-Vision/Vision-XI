@@ -54,7 +54,7 @@ export default function EventCard({
 			<Center py={6} onClick={onOpen}>
 				<Box
 					maxW="25rem"
-					minH="24rem"
+					minH="25rem"
 					w="full"
 					bg={useColorModeValue("white", "gray.900")}
 					boxShadow="xl"
@@ -76,6 +76,7 @@ export default function EventCard({
 							objectFit="cover"
 							alt=""
 						/>
+
 					</Box>
 					<Stack>
 						<Text
@@ -87,6 +88,7 @@ export default function EventCard({
 						>
 							{category}
 						</Text>
+
 						<Heading
 							color={useColorModeValue("gray.700", "white")}
 							fontSize={"2xl"}
@@ -97,7 +99,10 @@ export default function EventCard({
 						<Text color={"gray.500"} noOfLines={2}>
 							{tagline}
 						</Text>
+
 					</Stack>
+					<Tag size="sm" marginTop="4" >HouseFull</Tag>
+
 				</Box>
 			</Center>
 			<Modal scrollBehavior="inside" isOpen={isOpen} onClose={onClose}>
