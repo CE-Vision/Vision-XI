@@ -42,8 +42,7 @@
             "id": 2,
             "name": "Vatsal Roy",
             "post": "Head",
-            "linkedin": "https://linkedin.com/thevrajshah",
-            "portfolio": "https://Harsh2220.netlify.app"
+            "linkedin": "https://linkedin.com/in/vatsal-roy-576295194"
         },
         {
             "id": 3,
@@ -52,7 +51,6 @@
             "linkedin": "https://linkedin.com/in/thevrajshah",
             "portfolio": "https://vraj.codes",
             "github": "https://github.com/thevrajshah"
-
         },
 
         {
@@ -68,11 +66,10 @@
             "id": 5,
             "name": "Harsh Sachaniya",
             "post": "Volunteer",
-            "linkedin": "https://www.linkedin.com/in/harsh-sachaniya-98007b1a9",
+            "linkedin": "https://www.linkedin.com/in/Harsh-Sachaniya",
             "portfolio": "https://Harsh2220.netlify.app",
             "github": "https://github.com/Harsh2220"
         }
-
     ],
     "Decoration": [{
             "id": 1,
