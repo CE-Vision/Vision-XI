@@ -10,7 +10,7 @@ import { createContext, useState } from "react";
 export const AppContext = createContext();
 
 function MyApp({ Component, pageProps }) {
-	const [team_tab, setTeamTab] = useState(1);
+	const [team_tab, setTeamTab] = useState(0);
 	return (
 		<AppContext.Provider value={{ team_tab, setTeamTab }}>
 			<ChakraProvider theme={theme}>

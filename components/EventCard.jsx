@@ -116,19 +116,18 @@ export default function EventCard({
 									</Heading>
 									{!!round.duration && <Tag size="sm">{round.duration}</Tag>}
 								</Flex>
-								<Text>
-									{category == "workshop"
-										? round.description.split("•").map(
-												(line, key) =>
-													key !== 0 && (
-														<>
-															•&nbsp;{line}
-															<br />
-														</>
-													)
-										  )
-										: round.description}
-								</Text>
+
+								{category == "workshop"
+									? round.description.split("•").map(
+											(line, key) =>
+												key !== 0 && (
+													<Text key={key}>
+														•&nbsp;{line}
+														<br />
+													</Text>
+												)
+									  )
+									: round.description}
 							</Stack>
 						))}
 					</ModalBody>

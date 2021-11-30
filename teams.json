@@ -14,13 +14,18 @@
       },
       {
          "id": 3,
+         "name": "Dhrumil Shah",
+         "post": "Advisor"
+      },
+      {
+         "id": 4,
          "name": "Trishala Swain",
          "post": "Joint Chief Coordinator",
          "linkedin": "https://www.linkedin.com/in/trishala01/",
          "github": "https://github.com/trishala01"
       },
       {
-         "id": 4,
+         "id": 5,
          "name": "Nandaja Nair",
          "post": "Joint Chief Coordinator"
       }
@@ -70,15 +75,19 @@
       },
       {
          "id": 3,
-         "name": "Vruddhi Patel",
-         "post": "Co-Head"
+         "name": "Rishika Pandit",
+         "post": "Co-Head",
+         "linkedin": "https://www.linkedin.com/in/rishika-pandit-23383a219"
       },
       {
          "id": 4,
-         "name": "Rishika Pandit",
-         "post": "Co-Head",
-         "linkedin": "https://www.linkedin.com/in/rishika-pandit-23383a219",
-         "portfolio": ""
+         "name": "Dwija Patel",
+         "post": "IDK"
+      },
+      {
+         "id": 5,
+         "name": "Vruddhi Patel",
+         "post": "Co-Head"
       }
    ],
    "Technical": [
@@ -123,13 +132,6 @@
          "id": 3,
          "name": "Hitiksha Modi",
          "post": "Co-Head",
-         "linkedin": "",
-         "portfolio": ""
-      },
-      {
-         "id": 4,
-         "name": "Margi Patel",
-         "post": "Head",
          "linkedin": "",
          "portfolio": ""
       }

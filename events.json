@@ -4,7 +4,6 @@
       "title": "Flutter for Application Development",
       "tagline": "",
       "category": "workshop",
-      "img": "https://picsum.photos/200",
       "rounds": [
          {
             "id": 1,
@@ -23,7 +22,6 @@
       "title": "Technotainment",
       "tagline": "Full off tech senses",
       "category": "tech",
-      "img": "https://picsum.photos/200",
       "rounds": [
          {
             "id": 1,
@@ -53,7 +51,6 @@
       "title": "Mysteriopolis",
       "tagline": "Great Mystery Begin with Great Stories Fetched beyond eons",
       "category": "tech",
-      "img": "https://picsum.photos/200",
       "rounds": [
          {
             "id": 1,
@@ -83,21 +80,16 @@
       "title": "Bollywood Beats",
       "tagline": "Hamare Tevar Alag hai",
       "category": "non-tech",
-      "img": "https://picsum.photos/200",
       "rounds": [
          {
             "id": 1,
             "title": "Battle of Lyrics",
-            "tagline": "wear your thinking caps or deerstalker hats!",
-            "duration": "25min",
-            "description": "A block of 25 or 16 imgs in such a manner that all the images are linked to each other and numbered in some order. After a few minutes participants will have to memorize the order value pair and the blocks which are related to each other. Participants will have to write the order value pair."
+            "description": "From the incomplete lyrics displayed on the screen participants have to complete the further 2 lines of lyrics in given time limit."
          },
          {
             "id": 2,
             "title": "Melody",
-            "tagline": "To catch a criminal, think like a criminal",
-            "duration": "25min",
-            "description": "Teams have to solve clues related to the “MURDER OF SHAWN” on basis of there technical knowledge , which will lead to series of clues about murder of shawn. Team who solves all the clue and finds the murderer will win and will get qualify for the next round."
+            "description": "Participants have to guess the song name by its background music which would be without lyrics in given time limit."
          },
          {
             "id": 3,
@@ -113,7 +105,6 @@
       "title": "Mentos Zindagi",
       "tagline": "Dimag Ki Baati Jalao",
       "category": "non-tech",
-      "img": "https://picsum.photos/200",
       "rounds": [
          {
             "id": 1,
@@ -137,7 +128,6 @@
       "title": "Atrangi Mela",
       "tagline": "Socho Kuch Aur, Hai Kuch Aur!",
       "category": "non-tech",
-      "img": "https://picsum.photos/200",
       "rounds": [
          {
             "id": 1,

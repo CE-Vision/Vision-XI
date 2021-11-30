@@ -166,7 +166,7 @@ export default function Home() {
 						Team that made it all possible
 					</Heading>
 					<Text color={useColorModeValue("teal.700,teal.100")}>
-						We know you don't read so why waste time in copywriting.
+						We know you don&apos;t read so why waste time in copywriting.
 					</Text>
 					<Tabs
 						index={team_tab}
