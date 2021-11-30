@@ -30,7 +30,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Vision XI | SVIT Vasad</title>
+				<title>CE Vision XI | SVIT Vasad</title>
 			</Head>
 			<Nav />
 			<Hero />
