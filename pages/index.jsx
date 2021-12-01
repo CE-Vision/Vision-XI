@@ -169,6 +169,7 @@ export default function Home() {
 						We know you don&apos;t read so why waste time in copywriting.
 					</Text>
 					<Tabs
+						isLazy
 						index={team_tab}
 						onChange={setTeamTab}
 						variant="soft-rounded"
