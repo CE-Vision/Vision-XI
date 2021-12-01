@@ -39,7 +39,7 @@ export default function MemberCard({
 				<Avatar
 					size={"2xl"}
 					boxShadow={"lg"}
-					src={`/teams/${team}/${id}.jpg`}
+					src={`/teams/${team}/${id}.webp`}
 					alt={"Avatar Alt"}
 					mb={4}
 					pos={"relative"}
