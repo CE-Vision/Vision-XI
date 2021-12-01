@@ -28,6 +28,12 @@ export default function CallToActionWithIllustration() {
 						py={{ base: 12, md: 18 }}
 					>
 						<Stack>
+							<Text
+								color={useColorModeValue("orange.400", "orange.100")}
+								maxW={"3xl"}
+							>
+								Computer Department presents
+							</Text>
 							<Heading
 								fontWeight={600}
 								fontSize={{ base: "4xl", sm: "6xl", md: "6xl" }}
