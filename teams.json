@@ -74,6 +74,13 @@
             "id": 6,
             "name": "Manish Jangid",
             "post": "Volunteer"
+        },
+        {
+            "id": 7,
+            "name": "Janki Bariya",
+            "post": "Volunteer",
+            "linkedin": "https://www.linkedin.com/in/janki-bariya",
+            "github": "https://www.github.com/JankiBariya"
         }
     ],
     "Decoration": [
