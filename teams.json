@@ -1,223 +1,227 @@
 {
-    "Core": [{
-            "id": 1,
-            "name": "Meet Shah",
-            "post": "Chief Coordinator",
-            "linkedin": "https://www.linkedin.com/in/meet-shah-5849751a9/"
-        },
-        {
-            "id": 2,
-            "name": "Harshita Daswani",
-            "post": "Chief Coordinator",
-            "linkedin": "https://www.linkedin.com/in/harshitabdaswani/"
-        },
-        {
-            "id": 3,
-            "name": "Dhrumil Shah",
-            "post": "Advisor",
-            "linkedin": "https://www.linkedin.com/in/dhrumil-shah-4106191a0"
-        },
-        {
-            "id": 4,
-            "name": "Trishala Swain",
-            "post": "Joint Chief Coordinator",
-            "linkedin": "https://www.linkedin.com/in/trishala01/",
-            "github": "https://github.com/trishala01"
-        },
-        {
-            "id": 5,
-            "name": "Nandaja Nair",
-            "post": "Joint Chief Coordinator"
-        }
-    ],
-    "Web & Graphics": [{
-            "id": 1,
-            "name": "Jay Patel",
-            "post": "Head",
-            "linkedin": "https://linkedin.com/in/imjp19",
-            "portfolio": "https://imjp.dev",
-            "github": "https://github.com/imjp19"
-        },
-        {
-            "id": 2,
-            "name": "Vatsal Roy",
-            "post": "Head",
-            "linkedin": "https://linkedin.com/in/vatsal-roy-576295194"
-        },
-        {
-            "id": 3,
-            "name": "Vraj Shah",
-            "post": "Co-Head",
-            "linkedin": "https://linkedin.com/in/thevrajshah",
-            "portfolio": "https://vraj.codes",
-            "github": "https://github.com/thevrajshah"
-        },
-
-        {
-            "id": 4,
-            "name": "Darshil Rathod",
-            "post": "Co-Head",
-            "linkedin": "https://linkedin.com/in/darshil-rathod-783679128",
-            "portfolio": "https://bluelearn.in",
-            "github": "https://github.com/RathodDarshil"
-
-        },
-        {
-            "id": 5,
-            "name": "Harsh Sachaniya",
-            "post": "Volunteer",
-            "linkedin": "https://www.linkedin.com/in/Harsh-Sachaniya",
-            "portfolio": "https://Harsh2220.netlify.app",
-            "github": "https://github.com/Harsh2220"
-        }
-    ],
-    "Decoration": [{
-            "id": 1,
-            "name": "Gautami Parikh",
-            "post": "Head",
-            "linkedin": "https://www.linkedin.com/gautami-parikh"
-        },
-        {
-            "id": 2,
-            "name": "Jarul Solanki",
-            "post": "Head",
-            "linkedin": "https://www.linkedin.com/in/jarul-solanki-2139461b3/"
-        },
-        {
-            "id": 3,
-            "name": "Rishika Pandit",
-            "post": "Co-Head",
-            "linkedin": "https://www.linkedin.com/in/rishika-pandit-23383a219"
-        },
-        {
-            "id": 4,
-            "name": "Dvija Patel",
-            "post": "Co-Head",
-            "linkedin": "https://www.linkedin.com/in/dvija-patel-90b501227"
-        },
-        {
-            "id": 5,
-            "name": "Vruddhi Patel",
-            "post": "Co-Head"
-        }
-    ],
-    "Technical": [{
-            "id": 1,
-            "name": "Aum Sathwara",
-            "post": "Head",
-            "linkedin": "https://www.linkedin.com/in/aum-sathwara-3433b21a3",
-            "portfolio": ""
-        },
-        {
-            "id": 2,
-            "name": "Akshar Vandara",
-            "post": "Head",
-            "linkedin": "https://www.linkedin.com/in/akshar-vandara-4b8130212",
-            "portfolio": ""
-        },
-        {
-            "id": 3,
-            "name": "Satyam Kandoi",
-            "post": "Co-Head",
-            "linkedin": "https://www.linkedin.com/in/satyam-kandoi/",
-            "portfolio": ""
-        },
-        {
-            "id": 4,
-            "name": "Rythmn Magnani",
-            "post": "Co-Head",
-            "linkedin": "https://www.linkedin.com/in/satyam-kandoi/",
-            "portfolio": ""
-        }
-    ],
-    "Non-Technical": [{
-            "id": 1,
-            "name": "Durva Brahmbhatt",
-            "post": "Head",
-            "linkedin": "",
-            "portfolio": ""
-        },
-        {
-            "id": 2,
-            "name": "Margi Patel",
-            "post": "Head",
-            "linkedin": "",
-            "portfolio": ""
-        },
-        {
-            "id": 3,
-            "name": "Hitiksha Modi",
-            "post": "Co-Head",
-            "linkedin": "",
-            "portfolio": ""
-        },
-        {
-            "id": 4,
-            "name": "Kunal Shah",
-            "post": "Co-Head",
-            "linkedin": "",
-            "portfolio": ""
-        }
-    ],
-    "Promotion": [{
-            "id": 1,
-            "name": "Nirav Patel",
-            "post": "Head",
-            "linkedin": "https://www.linkedin.com/in/nirav-patel-09a8241a9",
-            "portfolio": ""
-        },
-        {
-            "id": 2,
-            "name": "Kunjan Tailor",
-            "post": "Head",
-            "linkedin": "https://linkedin.com/in/kunjan-tailor-993b101b7",
-            "portfolio": ""
-        },
-        {
-            "id": 3,
-            "name": "Mitesh Agarwal",
-            "post": "Co-Head",
-            "linkedin": "https://www.linkedin.com/in/mitesh-agrawal-9934ab215",
-            "portfolio": ""
-        }
-    ],
-    "Finance": [{
-            "id": 1,
-            "name": "Heta Chokshi",
-            "post": "Head",
-            "linkedin": "",
-            "portfolio": ""
-        },
-        {
-            "id": 2,
-            "name": "Arya Pradeep",
-            "post": "Head",
-            "linkedin": "",
-            "portfolio": ""
-        },
-        {
-            "id": 3,
-            "name": "Krima Patel",
-            "post": "Head",
-            "linkedin": "",
-            "portfolio": ""
-        }
-
-    ],
-    "OTS": [{
-            "id": 1,
-            "name": "Nitya Shrivastava",
-            "post": "Head",
-            "linkedin": "",
-            "portfolio": ""
-        },
-        {
-            "id": 2,
-            "name": "Drashti Vyas",
-            "post": "Head",
-            "linkedin": "",
-            "portfolio": ""
-        }
-
-    ]
+   "Core": [
+      {
+         "id": 1,
+         "name": "Meet Shah",
+         "post": "Chief Coordinator",
+         "linkedin": "https://www.linkedin.com/in/meet-shah-5849751a9/"
+      },
+      {
+         "id": 2,
+         "name": "Harshita Daswani",
+         "post": "Chief Coordinator",
+         "linkedin": "https://www.linkedin.com/in/harshitabdaswani/"
+      },
+      {
+         "id": 3,
+         "name": "Dhrumil Shah",
+         "post": "Advisor",
+         "linkedin": "https://www.linkedin.com/in/dhrumil-shah-4106191a0"
+      },
+      {
+         "id": 4,
+         "name": "Trishala Swain",
+         "post": "Joint Chief Coordinator",
+         "linkedin": "https://www.linkedin.com/in/trishala01/",
+         "github": "https://github.com/trishala01"
+      },
+      {
+         "id": 5,
+         "name": "Nandaja Nair",
+         "post": "Joint Chief Coordinator"
+      }
+   ],
+   "Web & Graphics": [
+      {
+         "id": 1,
+         "name": "Jay Patel",
+         "post": "Head",
+         "linkedin": "https://linkedin.com/in/imjp19",
+         "portfolio": "https://imjp.dev",
+         "github": "https://github.com/imjp19"
+      },
+      {
+         "id": 2,
+         "name": "Vatsal Roy",
+         "post": "Head",
+         "linkedin": "https://linkedin.com/in/vatsal-roy-576295194"
+      },
+      {
+         "id": 3,
+         "name": "Vraj Shah",
+         "post": "Co-Head",
+         "linkedin": "https://linkedin.com/in/thevrajshah",
+         "portfolio": "https://vraj.codes",
+         "github": "https://github.com/thevrajshah"
+      },
+      {
+         "id": 4,
+         "name": "Darshil Rathod",
+         "post": "Co-Head",
+         "linkedin": "https://linkedin.com/in/darshil-rathod-783679128",
+         "portfolio": "https://bluelearn.in",
+         "github": "https://github.com/RathodDarshil"
+      },
+      {
+         "id": 5,
+         "name": "Harsh Sachaniya",
+         "post": "Volunteer",
+         "linkedin": "https://www.linkedin.com/in/Harsh-Sachaniya",
+         "portfolio": "https://Harsh2220.netlify.app",
+         "github": "https://github.com/Harsh2220"
+      }
+   ],
+   "Decoration": [
+      {
+         "id": 1,
+         "name": "Gautami Parikh",
+         "post": "Head",
+         "linkedin": "https://www.linkedin.com/gautami-parikh"
+      },
+      {
+         "id": 2,
+         "name": "Jarul Solanki",
+         "post": "Head",
+         "linkedin": "https://www.linkedin.com/in/jarul-solanki-2139461b3/"
+      },
+      {
+         "id": 3,
+         "name": "Rishika Pandit",
+         "post": "Co-Head",
+         "linkedin": "https://www.linkedin.com/in/rishika-pandit-23383a219"
+      },
+      {
+         "id": 4,
+         "name": "Dvija Patel",
+         "post": "Co-Head",
+         "linkedin": "https://www.linkedin.com/in/dvija-patel-90b501227"
+      },
+      {
+         "id": 5,
+         "name": "Vruddhi Patel",
+         "post": "Co-Head"
+      }
+   ],
+   "Technical": [
+      {
+         "id": 1,
+         "name": "Aum Sathwara",
+         "post": "Head",
+         "linkedin": "https://www.linkedin.com/in/aum-sathwara-3433b21a3",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Akshar Vandara",
+         "post": "Head",
+         "linkedin": "https://www.linkedin.com/in/akshar-vandara-4b8130212",
+         "portfolio": ""
+      },
+      {
+         "id": 3,
+         "name": "Satyam Kandoi",
+         "post": "Co-Head",
+         "linkedin": "https://www.linkedin.com/in/satyam-kandoi/",
+         "portfolio": ""
+      },
+      {
+         "id": 4,
+         "name": "Rythmn Magnani",
+         "post": "Co-Head",
+         "linkedin": "https://www.linkedin.com/in/satyam-kandoi/",
+         "portfolio": ""
+      }
+   ],
+   "Non-Technical": [
+      {
+         "id": 1,
+         "name": "Durva Brahmbhatt",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Margi Patel",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 3,
+         "name": "Hitiksha Modi",
+         "post": "Co-Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 4,
+         "name": "Kunal Shah",
+         "post": "Co-Head",
+         "linkedin": "",
+         "portfolio": ""
+      }
+   ],
+   "Promotion": [
+      {
+         "id": 1,
+         "name": "Kunjan Tailor",
+         "post": "Head",
+         "linkedin": "https://linkedin.com/in/kunjan-tailor-993b101b7",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Nirav Patel",
+         "post": "Head",
+         "linkedin": "https://www.linkedin.com/in/nirav-patel-09a8241a9",
+         "portfolio": ""
+      },
+      {
+         "id": 3,
+         "name": "Mitesh Agarwal",
+         "post": "Co-Head",
+         "linkedin": "https://www.linkedin.com/in/mitesh-agrawal-9934ab215",
+         "portfolio": ""
+      }
+   ],
+   "Finance": [
+      {
+         "id": 1,
+         "name": "Heta Chokshi",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Arya Pradeep",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 3,
+         "name": "Krima Patel",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      }
+   ],
+   "OTS": [
+      {
+         "id": 1,
+         "name": "Nitya Shrivastava",
+         "post": "Head",
+         "linkedin": "",
+         "portfolio": ""
+      },
+      {
+         "id": 2,
+         "name": "Drashti Vyas",
+         "post": "Co-Head",
+         "linkedin": "",
+         "portfolio": ""
+      }
+   ]
 }
