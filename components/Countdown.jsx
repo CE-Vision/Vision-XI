@@ -8,11 +8,11 @@ const Countdown = () => {
 
 		if (difference > 0) {
 			timeLeft = {
-				days: addPrecedingZero(Math.floor(difference / (1000 * 60 * 60 * 24))),
-				hours: addPrecedingZero(
-					Math.floor((difference / (1000 * 60 * 60)) % 24)
-				),
+				hours: addPrecedingZero(Math.floor(difference / (1000 * 60 * 60))),
 				minutes: addPrecedingZero(Math.floor((difference / 1000 / 60) % 60)),
+				seconds: addPrecedingZero(
+					Math.floor((difference % (1000 * 60)) / 1000)
+				),
 			};
 		}
 
@@ -38,7 +38,7 @@ const Countdown = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			setTimeLeft(calculateTimeLeft());
-		}, 60000);
+		}, 1000);
 	});
 
 	const timerComponents = [];
@@ -72,11 +72,11 @@ const Countdown = () => {
 						<Heading size="lg">{timerComponents}</Heading>
 						<Heading
 							fontSize={10}
-							letterSpacing="1px"
+							letterSpacing="2px"
 							color="orange.200"
 							mb={5}
 						>
-							DAYS &nbsp; HOURS &nbsp; MINS
+							&nbsp;&nbsp;HRS &nbsp;&nbsp; MINS &nbsp;&nbsp; SECS
 						</Heading>
 					</Box>
 				) : (
