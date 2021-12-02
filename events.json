@@ -1,9 +1,12 @@
-[{
+[
+    {
         "id": 1,
         "title": "Flutter for Application Development",
         "tagline": "",
         "category": "workshop",
-        "rounds": [{
+        "full": true,
+        "rounds": [
+            {
                 "id": 1,
                 "title": "Day 1",
                 "description": "• Intro of OOP Concepts• What is Flutter and Dart?• How flutter renders the widgets• Simple contact details app development which you can share with others by creating the build• What is API and how we can integrate it?• Weather app using open weather API"
@@ -20,7 +23,9 @@
         "title": "Technotainment",
         "tagline": "Full off tech senses",
         "category": "tech",
-        "rounds": [{
+        "full": true,
+        "rounds": [
+            {
                 "id": 1,
                 "title": "TechMaps",
                 "tagline": "The end is the new beginning",
@@ -48,7 +53,9 @@
         "title": "Mysteriopolis",
         "tagline": "Great Mystery Begin with Great Stories Fetched beyond eons",
         "category": "tech",
-        "rounds": [{
+        "full": true,
+        "rounds": [
+            {
                 "id": 1,
                 "title": "Tic-Tech-Toe",
                 "tagline": "Life is a game of tic-tac-toe, constantly waiting for the next X or O.",
@@ -76,7 +83,9 @@
         "title": "Bollywood Beats",
         "tagline": "Hamare Tevar Alag hai",
         "category": "non-tech",
-        "rounds": [{
+        "full": true,
+        "rounds": [
+            {
                 "id": 1,
                 "title": "Battle of Lyrics",
                 "description": "From the incomplete lyrics displayed on the screen participants have to complete the further 2 lines of lyrics in given time limit."
@@ -98,7 +107,9 @@
         "title": "Mentos Zindagi",
         "tagline": "Dimag Ki Baati Jalao",
         "category": "non-tech",
-        "rounds": [{
+        "full": true,
+        "rounds": [
+            {
                 "id": 1,
                 "title": "Kahoot",
                 "description": "Questions on this quiz will deal with logic. Because time is one of the determining factors, it is important to answer the questions as quickly as possible."
@@ -120,7 +131,9 @@
         "title": "Atrangi Mela",
         "tagline": "Socho Kuch Aur, Hai Kuch Aur!",
         "category": "non-tech",
-        "rounds": [{
+        "full": true,
+        "rounds": [
+            {
                 "id": 1,
                 "title": "Riddle Marathon",
                 "description": "First we will give brief about the game to the participants. In this game the group will be given riddles and they have to answer them in a particular time limit. Group with the maximum number of right answers will be going to the next round!"

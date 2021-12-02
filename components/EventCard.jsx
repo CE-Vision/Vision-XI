@@ -22,6 +22,7 @@ import {
 	Breadcrumb,
 	BreadcrumbItem,
 	BreadcrumbLink,
+	Badge,
 } from "@chakra-ui/react";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
@@ -32,6 +33,7 @@ export default function EventCard({
 	tagline,
 	category,
 	rounds,
+	full,
 }) {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -53,6 +55,7 @@ export default function EventCard({
 		<>
 			<Center py={6} onClick={onOpen}>
 				<Box
+					pos="relative"
 					maxW="25rem"
 					minH="25rem"
 					w="full"
@@ -61,6 +64,7 @@ export default function EventCard({
 					rounded="2xl"
 					p={6}
 					overflow="hidden"
+					opacity={full ? 0.6 : 1}
 				>
 					<Box
 						h={"210px"}
@@ -76,7 +80,6 @@ export default function EventCard({
 							objectFit="cover"
 							alt=""
 						/>
-
 					</Box>
 					<Stack>
 						<Text
@@ -99,10 +102,19 @@ export default function EventCard({
 						<Text color={"gray.500"} noOfLines={2}>
 							{tagline}
 						</Text>
-
 					</Stack>
-					<Tag size="sm" marginTop="4" >HouseFull</Tag>
-
+					{full && (
+						<Badge
+							colorScheme="red"
+							variant="solid"
+							position="absolute"
+							top={2}
+							right={2}
+							zIndex={100}
+						>
+							FULL
+						</Badge>
+					)}
 				</Box>
 			</Center>
 			<Modal scrollBehavior="inside" isOpen={isOpen} onClose={onClose}>
